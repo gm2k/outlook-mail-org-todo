@@ -1,18 +1,8 @@
-VERSION 1.0 CLASS
-BEGIN
-  MultiUse = -1  'True
-END
-Attribute VB_Name = "ThisOutlookSession"
-Attribute VB_GlobalNameSpace = False
-Attribute VB_Creatable = False
-Attribute VB_PredeclaredId = True
-Attribute VB_Exposed = True
-
-Sub AddLinkToMessageInClipboard()
+Sub AddLinkToMessageAsTaskToFile()
     
     Dim orgFile As String
     Dim orgTag As String
-    orgFile = "D:\Dropbox\org\my.org.txt"
+    orgFile = "D:\Dropbox\org\my.org"
     orgTag = ":WORK:"
     'MsgBox ("start")
     Dim objMail As Outlook.MailItem
