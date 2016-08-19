@@ -1,2 +1,2 @@
 # outlook-mail-org-todo
-Outlook vbs macro adding to org-file task with link to email in outlook.
+Outlook vbs macro adding to Emacs org mode file todo task with link to email in outlook.
